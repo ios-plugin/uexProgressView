@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E0071C01A50319C002F4C97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E0071BF1A50319C002F4C97 /* Foundation.framework */; };
+		6EA84E921AA05693008C0905 /* AppCanCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA84E851AA05693008C0905 /* AppCanCircleProgressView.m */; };
+		6EA84E931AA05693008C0905 /* AppCanMyProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA84E871AA05693008C0905 /* AppCanMyProgressView.m */; };
+		6EA84E941AA05693008C0905 /* ACTHCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA84E8A1AA05693008C0905 /* ACTHCircularProgressView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6EA84E951AA05693008C0905 /* EUExProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA84E8C1AA05693008C0905 /* EUExProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6E0071BA1A50319C002F4C97 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6E0071BC1A50319C002F4C97 /* libuexProgressView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexProgressView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0071BF1A50319C002F4C97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E0071C31A50319C002F4C97 /* EUExProgressView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExProgressView-Prefix.pch"; sourceTree = "<group>"; };
+		6E0071F91A5031EA002F4C97 /* EUExBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBase.h; sourceTree = "<group>"; };
+		6E0071FA1A5031EA002F4C97 /* EUExBaseDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExBaseDefine.h; sourceTree = "<group>"; };
+		6E0071FB1A5031EA002F4C97 /* EUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUtility.h; sourceTree = "<group>"; };
+		6E0071FC1A5031EA002F4C97 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		6E0071FE1A5031EA002F4C97 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		6E0071FF1A5031EA002F4C97 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		6E0072001A5031EA002F4C97 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		6E0072011A5031EA002F4C97 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		6E0072021A5031EA002F4C97 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		6E0072031A5031EA002F4C97 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		6E0072041A5031EA002F4C97 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		6E0072051A5031EA002F4C97 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		6E0072061A5031EA002F4C97 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		6E0072071A5031EA002F4C97 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		6E0072081A5031EA002F4C97 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		6E0072091A5031EA002F4C97 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		6E00720A1A5031EA002F4C97 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		6E00720B1A5031EA002F4C97 /* WidgetOneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WidgetOneDelegate.h; sourceTree = "<group>"; };
+		6EA84E841AA05693008C0905 /* AppCanCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCanCircleProgressView.h; sourceTree = "<group>"; };
+		6EA84E851AA05693008C0905 /* AppCanCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppCanCircleProgressView.m; sourceTree = "<group>"; };
+		6EA84E861AA05693008C0905 /* AppCanMyProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCanMyProgressView.h; sourceTree = "<group>"; };
+		6EA84E871AA05693008C0905 /* AppCanMyProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppCanMyProgressView.m; sourceTree = "<group>"; };
+		6EA84E891AA05693008C0905 /* ACTHCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACTHCircularProgressView.h; sourceTree = "<group>"; };
+		6EA84E8A1AA05693008C0905 /* ACTHCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACTHCircularProgressView.m; sourceTree = "<group>"; };
+		6EA84E8B1AA05693008C0905 /* EUExProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExProgressView.h; sourceTree = "<group>"; };
+		6EA84E8C1AA05693008C0905 /* EUExProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EUExProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E0071B91A50319C002F4C97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0071C01A50319C002F4C97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E0071B31A50319C002F4C97 = {
+			isa = PBXGroup;
+			children = (
+				6E0071C11A50319C002F4C97 /* EUExProgressView */,
+				6E0071BE1A50319C002F4C97 /* Frameworks */,
+				6E0071BD1A50319C002F4C97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E0071BD1A50319C002F4C97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E0071BC1A50319C002F4C97 /* libuexProgressView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E0071BE1A50319C002F4C97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E0071BF1A50319C002F4C97 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E0071C11A50319C002F4C97 /* EUExProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				6EA84E831AA05693008C0905 /* EUExProgressView */,
+				6E0071F81A5031EA002F4C97 /* engineHeader */,
+				6E0071C21A50319C002F4C97 /* Supporting Files */,
+			);
+			path = EUExProgressView;
+			sourceTree = "<group>";
+		};
+		6E0071C21A50319C002F4C97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E0071C31A50319C002F4C97 /* EUExProgressView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E0071F81A5031EA002F4C97 /* engineHeader */ = {
+			isa = PBXGroup;
+			children = (
+				6E0071F91A5031EA002F4C97 /* EUExBase.h */,
+				6E0071FA1A5031EA002F4C97 /* EUExBaseDefine.h */,
+				6E0071FB1A5031EA002F4C97 /* EUtility.h */,
+				6E0071FC1A5031EA002F4C97 /* JSON.h */,
+				6E0071FD1A5031EA002F4C97 /* SBJson */,
+				6E00720B1A5031EA002F4C97 /* WidgetOneDelegate.h */,
+			);
+			path = engineHeader;
+			sourceTree = "<group>";
+		};
+		6E0071FD1A5031EA002F4C97 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				6E0071FE1A5031EA002F4C97 /* NSObject+SBJson.h */,
+				6E0071FF1A5031EA002F4C97 /* SBJson.h */,
+				6E0072001A5031EA002F4C97 /* SBJsonParser.h */,
+				6E0072011A5031EA002F4C97 /* SBJsonStreamParser.h */,
+				6E0072021A5031EA002F4C97 /* SBJsonStreamParserAccumulator.h */,
+				6E0072031A5031EA002F4C97 /* SBJsonStreamParserAdapter.h */,
+				6E0072041A5031EA002F4C97 /* SBJsonStreamParserState.h */,
+				6E0072051A5031EA002F4C97 /* SBJsonStreamWriter.h */,
+				6E0072061A5031EA002F4C97 /* SBJsonStreamWriterAccumulator.h */,
+				6E0072071A5031EA002F4C97 /* SBJsonStreamWriterState.h */,
+				6E0072081A5031EA002F4C97 /* SBJsonTokeniser.h */,
+				6E0072091A5031EA002F4C97 /* SBJsonUTF8Stream.h */,
+				6E00720A1A5031EA002F4C97 /* SBJsonWriter.h */,
+			);
+			path = SBJson;
+			sourceTree = "<group>";
+		};
+		6EA84E831AA05693008C0905 /* EUExProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				6EA84E841AA05693008C0905 /* AppCanCircleProgressView.h */,
+				6EA84E851AA05693008C0905 /* AppCanCircleProgressView.m */,
+				6EA84E861AA05693008C0905 /* AppCanMyProgressView.h */,
+				6EA84E871AA05693008C0905 /* AppCanMyProgressView.m */,
+				6EA84E881AA05693008C0905 /* APPTHCircularProgressView */,
+				6EA84E8B1AA05693008C0905 /* EUExProgressView.h */,
+				6EA84E8C1AA05693008C0905 /* EUExProgressView.m */,
+			);
+			path = EUExProgressView;
+			sourceTree = "<group>";
+		};
+		6EA84E881AA05693008C0905 /* APPTHCircularProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				6EA84E891AA05693008C0905 /* ACTHCircularProgressView.h */,
+				6EA84E8A1AA05693008C0905 /* ACTHCircularProgressView.m */,
+			);
+			path = APPTHCircularProgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E0071BB1A50319C002F4C97 /* EUExProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E0071DF1A50319C002F4C97 /* Build configuration list for PBXNativeTarget "EUExProgressView" */;
+			buildPhases = (
+				6E0071B81A50319C002F4C97 /* Sources */,
+				6E0071B91A50319C002F4C97 /* Frameworks */,
+				6E0071BA1A50319C002F4C97 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EUExProgressView;
+			productName = EUExProgressView;
+			productReference = 6E0071BC1A50319C002F4C97 /* libuexProgressView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E0071B41A50319C002F4C97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = hongbao.cui;
+			};
+			buildConfigurationList = 6E0071B71A50319C002F4C97 /* Build configuration list for PBXProject "EUExProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6E0071B31A50319C002F4C97;
+			productRefGroup = 6E0071BD1A50319C002F4C97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E0071BB1A50319C002F4C97 /* EUExProgressView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E0071B81A50319C002F4C97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA84E931AA05693008C0905 /* AppCanMyProgressView.m in Sources */,
+				6EA84E921AA05693008C0905 /* AppCanCircleProgressView.m in Sources */,
+				6EA84E951AA05693008C0905 /* EUExProgressView.m in Sources */,
+				6EA84E941AA05693008C0905 /* ACTHCircularProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6E0071DD1A50319C002F4C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexProgressView";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = uexProgressView;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E0071DE1A50319C002F4C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv7s,
+					arm64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexProgressView";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1.1;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = uexProgressView;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Release;
+		};
+		6E0071E01A50319C002F4C97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DSTROOT = /tmp/EUExProgressView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EUExProgressView/EUExProgressView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexProgressView;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6E0071E11A50319C002F4C97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DSTROOT = /tmp/EUExProgressView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EUExProgressView/EUExProgressView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = uexProgressView;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E0071B71A50319C002F4C97 /* Build configuration list for PBXProject "EUExProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0071DD1A50319C002F4C97 /* Debug */,
+				6E0071DE1A50319C002F4C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E0071DF1A50319C002F4C97 /* Build configuration list for PBXNativeTarget "EUExProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0071E01A50319C002F4C97 /* Debug */,
+				6E0071E11A50319C002F4C97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E0071B41A50319C002F4C97 /* Project object */;
+}

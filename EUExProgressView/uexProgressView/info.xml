@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uexplugins>
+    <plugin
+        uexName="uexProgressView" version="3.0" build="0.0.4">
+        <info>build 0.0.1:进度条控件</info>
+    </plugin>
+</uexplugins>
